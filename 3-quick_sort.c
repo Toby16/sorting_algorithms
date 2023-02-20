@@ -17,6 +17,7 @@ void swap(int *a, int *b)
  * @array: array to be partitioned
  * @lo: lower index of the partition
  * @hi: upper index of the partition
+ * @size: size of array
  *
  * Return: the index of the pivot element
  */
@@ -53,6 +54,7 @@ int partition(int *array, int lo, int hi, size_t size)
  * @array: array to be sorted
  * @lo: lower index of the partition
  * @hi: upper index of the partition
+ * @size: size of array
  */
 void quick_sort_helper(int *array, int lo, int hi, size_t size)
 {
