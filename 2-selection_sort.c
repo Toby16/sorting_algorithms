@@ -13,7 +13,6 @@ void selection_sort(int *array, size_t size)
 	size_t i, j, min;
 	int temp;
 
-	/* code only runs if size of array is greater then 2 */
 	if (size > 2)
 	{
 		for (i = 0; i < (size - 1); i++)
@@ -22,7 +21,6 @@ void selection_sort(int *array, size_t size)
 
 			for (j = i + 1; j < size; j++)
 			{
-				/* check if array at j is less then array at min */
 				if (array[j] < array[min])
 				{
 					/* update min */
