@@ -12,13 +12,11 @@ void insertion_sort_list(listint_t **list);
 
 void insertion_sort_list(listint_t **list)
 {
-	/**
-	 * if (list == NULL || *list == NULL || (*list)->next == NULL)
-	 *	return (NULL);
-	*/
-
 	listint_t *i, *j, *temp;
 	int key;
+
+	if (list == NULL || *list == NULL || (*list)->next == NULL)
+		return;
 
 	temp = malloc(sizeof(listint_t));
 
