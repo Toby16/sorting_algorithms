@@ -4,7 +4,7 @@
  * selection_sort - function to perform selection sort on an array
  * @array: argument of type 'int *'
  *	array to be sorted
- * @size: argument of type "size_t"
+ * @size: argument of type 'size_t'
  *	size of array
  */
 
